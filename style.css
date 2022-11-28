@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+}
+.containerfluid{
+    width: 100vw;
+    height: 540px;
+    background: #FF3131;
+}
+.navbar{
+    width: 1200px;
+    padding: 30px 0 0 140px;
+}
+.logo{
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+}
+.icon{
+    width: 200px;
+    padding: 20px;
+    float: left;
+    margin-right: 650px;
+}
+.menu{
+    width: 400px;
+    height: 70px;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu ul li{
+    padding-top: 25px;
+    padding-left: 60px;
+    text-transform: uppercase;
+}
+.menu ul li a{
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.content{
+    float: left;
+    margin-left: 150px;
+    margin-top: 80px;
+    height: auto;
+    width: 800px;
+    color:white;
+}
+.content h1{
+    font-size: 50px;
+    font-family: Arial;
+    letter-spacing: 2px;
+}
+h1 span{
+    background: white;
+    color: #FF3131;
+    margin: 10px 0 10px 0;
+    border-radius: 2px;
+    padding: 0 10px 0 10px;
+    font-family: 'Times New Roman';
+}
+.par {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.btn{
+    background-color: white;
+    border: 2px solid white;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+.btn a{
+    color: #FF3131;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.contentpat{
+    float: left;
+    width: 200px;
+}
+.contentpat img{
+    margin-top: 45px;
+    width: 350px;
+}
+.containerservices{
+    margin-bottom: auto;
+    width: 100VW;
+    height: 350px;
+}
+.services{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #FF3131;
+    padding-left: 50px;
+}
+.serv:hover{
+    border: 5px solid #FF3131;
+}
+.serv{
+    margin-left: 120px;
+    float: left;
+    border-radius: 5px;
+    width: 350px;
+    border: 5px solid black;
+    color: black;
+}
+.centerize{
+    margin: 8px 0 5px 0;
+    text-align: center;
+}
+.paraserv{
+    padding: 0 8px 8px 10px;
+    text-align: center;
+}
+.serv img{
+    width: 350px;
+    height: 220px
+}
+.aboutus{
+    margin-top: 120px;
+    height: 400px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: #bdc3c7;
+}
+.aboutus h2{
+    text-align: center;
+    color: #FF3131;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 32px;
+} 
+.aboutpara{
+    width: 500px;
+    margin-left: 160px;
+    float: left;
+}
+.aboutpara ul{
+    font-size: 20px;
+    padding-top: 80px;
+}
+.aboutpara ul li{
+    letter-spacing: 2px;
+    padding-top: 18px;
+}
+.aboutimg{
+    padding-top: 20px;
+    padding-left: 300px;
+    width: 300px;
+    float: left;
+}
+.aboutimg img{
+    width: 450px;
+    height: 300px;
+}
+footer{
+    background-color: #FF3131;
+    width: auto;
+    height: 300px;
+}
+.myweb{
+    width: 400px;
+    padding-left: 100px;
+    padding-top:70px;
+    color: white;
+    float: left;
+}
+.myweb h3{
+    font-weight: bold;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.contactus{
+    width: 350px;
+    float: left;
+    padding-top: 70px;
+    padding-left: 80px;
+    color: white;
+}
+.contactus h3{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.contactcall{
+    padding-top: 15px;
+    letter-spacing: 2px;
+}
+.newsletter{
+    margin-top: 50px;
+    width: 350px;
+    padding : 15px;
+    float: left;
+    padding-left: 70px;
+    color: white;
+    border: 2px solid wheat;
+}
+.newsletter h3{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.newsletter input[type="email"]{
+    width: 300px;
+    height: 35px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 2px;
+}
+.newsletter p{
+    margin-left: 10px;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+.newsletter input[type="email"]:focus{
+outline: none;
+}
+.newsletter input[type="submit"]{
+    margin-left: 10px ;
+    width: 80px;
+    height: 30px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
